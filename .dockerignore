@@ -1,0 +1,28 @@
+# Build directories
+builddir/
+build/
+
+# Git
+.git/
+.gitignore
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker files (avoid copying dockerfile into itself)
+Dockerfile
+.dockerignore
+
+# GitHub Actions (don't need in container)
+.github/
+
+# Documentation
+README.md
+*.md
